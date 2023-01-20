@@ -1,0 +1,22 @@
+.cardList{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 1119px){
+    .cardList{
+        width: 700px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 699px){
+    .cardList{
+        width: 400px;
+        justify-content: space-around;
+    }
+}
