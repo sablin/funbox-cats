@@ -30,3 +30,5 @@ const CatCard = ({card}) => {
 };
 
 export default CatCard;
+
+import React from 'react';
