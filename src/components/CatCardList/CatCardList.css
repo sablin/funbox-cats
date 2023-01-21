@@ -5,6 +5,7 @@
     align-items: center;
     margin: 0 auto;
     flex-wrap: wrap;
+    min-width: 320px;
 }
 
 @media(max-width: 1119px){
@@ -17,6 +18,13 @@
 @media(max-width: 699px){
     .cardList{
         width: 400px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 399px){
+    .cardList{
+        width: 325px;
         justify-content: space-around;
     }
 }

@@ -11,9 +11,9 @@ const CatCard = ({card}) => {
 
     return (
         <div className="card-wrapper">
-            
+        
         <div className={classes} onClick={()=> setSelected(!selected)}>
-
+       
             <span className='description'>{card.descr}</span>
               <h2>{card.title}</h2>
               <h3>{card.subTitle}</h3>
@@ -24,8 +24,7 @@ const CatCard = ({card}) => {
                 {card.mass} <span>кг.</span>
              </span>
              </div>
-
-           {card.disabled ? <p className='buy-button'>Печалька, {card.subTitle} закончился.</p> : ( selected ? <p className='buy-button'>{card.selectedText}</p> : <p className='buy-button'>Чего сидишь? Порадуй котэ, <a  href="#" rel="noreferrer" target="_blank" onClick={(e)=>{e.preventDefault(); setSelected(!selected)}}>купи.</a></p>)}
+           {card.disabled ? <p className='buy-button'>Печалька, {card.subTitle} закончился.</p> : ( selected ? <p className='buy-button'>{card.selectedText}</p> : <p className='buy-button'>Чего сидишь? Порадуй котэ, <a href="https://ya.ru" rel="noreferrer" target="_blank" onClick={(e)=>{e.preventDefault(); setSelected(!selected)}}>купи.</a></p>)}
         </div>
     );
 };
