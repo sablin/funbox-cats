@@ -47,26 +47,11 @@
 Зовут меня Саша, 31 год. Долгое время разработка для меня была больше хобби, занимался ей в качестве подработок в свободное время. Основная же моя специальность была - управление проектами и продуктами. Занимался работой с командой и заказчиками, составлял ТЗ, бэклоги и прочее. Но в последнее время все больше в голову приходила мысль что хочу полностью посвятить себя разработке. Мне это интереснее и я чувствую что могу очень хорошо развиться в этом направлении. Ну и собственно решил на 4м десятке полностью сменить карьерный трек. Ранее занимался версткой, разработкой небольших программ на js(калькуляторы и подобные вещи), в последнее время активно изучаю реакт.
 Из того что ранее разрабатывал: https://ton-m.ru/, https://drviki.ru/, http://avixis.ru/ и множество других небольших проектов. Так же на реакте делал личные кабинеты магазинов и сам сайт(он на фласке) https://azato.ru/ и сейчас в работе сервис ruizzi.ru.
 
-# Getting Started with Create React App
+# Информация по запуску проета.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект созда с использованием Create React App. (https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+После скачивания вам необходимо перейти в папку проекта и выполнить установку всех пакетов командой npm install. После чего с помощью команды npm start вы можете логально запустить проект на сводобном порту. Дополнительные команды:
 
 ### `npm run build`
 
